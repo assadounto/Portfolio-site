@@ -4,3 +4,7 @@
  text-transform: inherit;
 width: 60%;
 }
+navbar #logo img{
+ display: block;
+ width: 50px;
+}
