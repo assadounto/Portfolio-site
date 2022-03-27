@@ -1,0 +1,112 @@
+.navbar{
+    background-color: #333;
+    overflow: hidden;
+}
+.navbar a{
+    float:left;
+    color:#f2f2f2;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size:17px;
+}
+.welcome-section{
+    height: 500px;
+  background-color: rgb(6, 22, 22);
+  padding: 200px;
+  font:size 1000px;
+  background-image: url("https://1.bp.blogspot.com/-kw1jbCYPVhs/UoxoV5XkVFI/AAAAAAAAMvc/laloO0sy6kA/s640/best-portfolio-sites.jpg%22");
+height: 400px;
+width: 100%;
+}
+.welcome-section h1{
+    font-size:30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.profile-link{`
+    height: 200px;
+    background-color: rgb(6, 22, 22);
+    padding: 50px;
+    font:size 40px,
+    color: rgb(19, 196, 48);
+    text-align:center;
+}
+.profile-link a {
+    font-size: 40px;
+    background-color: rgb(8, 5, 5);
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+background-color: rgb(21, 66, 70);
+}
+
+
+
+h1 {
+    color:white;
+    background-color: #5673C8;
+}
+h2 {
+    color: rgb(93, 156, 93);
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #35c941;
+}
+
+a:hover {
+    color: rgb(177, 1, 147);
+}
+
+p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+
+}
+
+.row {
+    margin: 0px -18px;
+    padding: 8px;
+}
+
+.row > .column {
+    padding: 6px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: rgb(163, 104, 102);
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+
+@media screen and (max-width: 850px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .column {
+        width: 100%;
+    }
+}
